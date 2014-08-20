@@ -1,42 +1,45 @@
 {
   "projects": {
-    "on-headers": {
-      "node": "0.8",
-      "description": "Execute a listener when a response is about to write headers",
-      "maintainer": "dougwilson"
+    "expose_curl": {
+      "description": "tool to trace and replay http requests",
+      "maintainer": "rlidwka"
     },
-    "on-finished": {
-      "node": "0.8",
-      "description": "Execute a callback when a request closes, finishes, or errors",
-      "maintainer": "dougwilson"
+    "express-json5": {
+      "description": "json/json5 body parsing middleware",
+      "maintainer": "rlidwka"
     },
-    "vary": {
-      "node": "0.8",
-      "description": "Manipulate the HTTP Vary header",
-      "maintainer": "dougwilson"
+    "fann": {
+      "description": "FANN (Fast Artificial Neural Network Library) bindings for Node.js",
+      "maintainer": "rlidwka"
     },
-    "mime-db": {
-      "node": "0.8",
-      "description": "Media Type Database",
-      "maintainer": "jongleberry"
+    "hotswap": {
+      "description": "Code hotswapping for your node.js modules",
+      "maintainer": "rlidwka"
+    },
+    "jju": {
+      "description": "a set of utilities to work with JSON / JSON5 documents",
+      "maintainer": "rlidwka",
+      "node": "0.10"
+    },
+    "sinopia": {
+      "description": "Private npm repository server",
+      "maintainer": "rlidwka",
+      "node": "0.10"
+    },
+    "x-eve": {
+      "description": "`x-eve` - a JavaScript object schema, processor and validation lib ([EVE](https://github.com/zzdhidden/EVE/) fork)",
+      "maintainer": "rlidwka",
+      "node": "0.10"
+    },
+    "yapm": {
+      "description": "A package manager for node (npm fork)",
+      "maintainer": "rlidwka",
+      "node": "0.10"
+    },
+    "yapm-progress": {
+      "description": "progress bar extracted from yapm",
+      "maintainer": "rlidwka"
     }
   },
-  "maintainers": {
-    "dougwilson": {
-      "packages": 75,
-      "avatar": "https://secure.gravatar.com/avatar/c4b64c6e47d970bb0d07a2b9d559be9b?s=50&d=retro"
-    },
-    "jongleberry": {
-      "packages": 427,
-      "avatar": "https://secure.gravatar.com/avatar/6e33cc0412b61cc01daac23c8989003c?s=50&d=retro"
-    },
-    "fishrock123": {
-      "packages": 49,
-      "avatar": "https://secure.gravatar.com/avatar/ff4b6f3d62efd0176e361e3ea918768f?s=50&d=retro"
-    },
-    "rlidwka": {
-      "packages": 13,
-      "avatar": "https://secure.gravatar.com/avatar/a5a236ba477ee98908600c40cda74f4a?s=50&d=retro"
-    }
-  }
+  "maintainers": {}
 }

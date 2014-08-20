@@ -12,6 +12,16 @@ title:       my projects - rlidwka
 # every package is either string or object
 projects:
  - sinopia
+ - fann:
+     github: node-fann
+ - hotswap:
+     github: node-hotswap
+ - yapm
+ - x-eve
+ - express-json5
+ - jju
+ - expose_curl
+ - yapm-progress
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests

@@ -1,0 +1,16 @@
+
+include projects
+include maintainers
+
+extends layout
+
+block body
+  section
+    h1 Projects
+    .table-wrap
+      +projects(projects)
+
+  section
+    h1 Team
+    .table-wrap
+      +maintainers(maintainers)

@@ -13,9 +13,9 @@ title:       my projects - rlidwka
 projects:
  - sinopia
  - fann:
-     github: node-fann
+     repo: rlidwka/node-fann
  - hotswap:
-     github: node-hotswap
+     repo: rlidwka/node-hotswap
  - yapm
  - x-eve
  - express-json5

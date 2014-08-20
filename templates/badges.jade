@@ -33,3 +33,8 @@ mixin badge-downloads(npm)
 mixin badge-gittip(user)
   a(href='https://www.gittip.com/' + user)
     +badge('/gittip/' + user)
+
+mixin badge-github(project)
+  a(href='https://github.com/' + project)
+    +badge('/github/issues/' + project)
+

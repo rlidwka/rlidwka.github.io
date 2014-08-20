@@ -2,7 +2,7 @@
 include badges
 
 mixin projects(projects)
-  table.table.table-striped.projects-table
+  table.table.projects-table
     thead
       tr
         th Project
@@ -15,10 +15,8 @@ mixin project-row(project)
   tr
     td: +project(project)
     td: +badge-npm(project.npm)
-    td: +badge-version(project.node)
     td: +badge-travis(project.repo)
-    td: +badge-coverage(project.repo)
-    td: +badge-david(project.repo)
+    td: +badge-github(project.repo)
     td: +badge-downloads(project.npm)
 
 mixin project(project)

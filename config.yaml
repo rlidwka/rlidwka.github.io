@@ -11,16 +11,43 @@ title:       my projects - rlidwka
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
- - sinopia
+ - sinopia:
+     description: >
+       Private npm repository server. Mostly used for speeding up npm installs,
+       and hosting private packages. Also it can ensure that deployments are predictable,
+       even if something is deleted from npm registry, you can still install it from cache.
+       You can install it easily, because all stuff is stored in files, and no
+       crazy database setup required.
  - fann:
      repo: rlidwka/node-fann
+     description: >
+       Node.js bindings for FANN (Fast Artificial Neural Network Library).
+       So if you're writing some weird AI thingy in node.js, this module
+       might help. It's very fast, but heavy and surely won't work in browser.
  - hotswap:
      repo: rlidwka/node-hotswap
+     description: >
+       Small library that allows you to replace node.js module on-the-fly.
+       It's occasionally useful for development if you don't want to restart your
+       server on every change. Use with caution.
  - yapm
  - x-eve
  - express-json5
- - jju
- - expose_curl
+ - jju:
+     description: >
+       Proper JSON5 implementation, that supports unicode and is much more configurable
+       than a reference parser (aseemk/json5).
+       Using this library you can change JSON/JSON5 document preserving its original
+       formatting. If your users use tabs or comma-first style in the config file,
+       it'll still be so when you make changes programmatically.
+       It's also useful as pure JSON parser, because it can return an exact position
+       of the error in the input.
+ - expose_curl:
+     description: >
+       Small library that allows you to capture and re-play HTTP requests.
+       For each request it prints out a list of command-line arguments for cURL,
+       so you can copy-paste it to terminal and repeat the request.
+       Useful for debugging HTTP clients and servers.
  - yapm-progress
 
 # this determines what info will be fetched with `make db`;
